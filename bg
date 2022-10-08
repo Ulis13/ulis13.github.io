@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Utama</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="bagan">
+        <div class="dalem">
+            <ul>
+                <li><a href="#beranda">Beranda</a></li>
+                <li><a href="#tentang-saya">Tentang Saya</a></li>
+                <div class="menu">
+                    <li><a>Tugas <span class="isi-saya-mini"></span></a></li>
+                    <div class="isi-menu"><br>
+                        <a href="p03/tabel.html">Tabel 10 Teman</a>
+                        <a href="p03form-lv1/form.html">Form lv1</a>
+                        <a href="p04css-basic/form-2.html">Form lv2</a>
+                        <a href="p05-jquery-delete/index.html">JQuery Delete</a>
+                        <a href="p06-spa-menu/index.html">SPA Menu</a>
+                    </div>
+                </div>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="ass wadah-ass" id="beranda">
+        <div class="hahi tengah"><br>
+            <br>
+            <br><br>
+<br>
+
+            <h1>Hallo</h1>
+            <p>Saya Sulis Setiawan <br><br> NIM: 41215866 &nbsp; Prodi: Teknik Informatika</p>
+
+            <img src="foto.jpg" class="fotobagus"><br><br>
+        </div><br>
+    </div>
+<br>
+<br>
+<br>
+<br>
+    <div class="selalu-aku">
+        <h2 class="tengah" id="tentang-saya">Tentang Saya</h2><br>
+        <p>Deskripsi diri ditulis secara singkat. Alasannya karena HRD harus melihat banyak CV, sehingga penting untuk mencuri perhatian HRD ketika melihat bagian awal CV. Buat deskripsi dalam dua atau tiga frasa dengan format poin atau paragraf singkat</p>
+    </div>
+    <br><br><br><br><br>
+
+
+</body>
+</html>
