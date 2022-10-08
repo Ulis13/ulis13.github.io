@@ -1,0 +1,178 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: whitesmoke;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    margin-top: 15px;
+}
+
+h1:hover{
+    color: #040303;
+    letter-spacing: 2px;
+}
+
+p, h2{
+    color: black;
+}
+.bagan{
+    position: fixed;
+    font-family: sans-serif;
+    background-color: wheat;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all 0.3s ease-in-out;
+    box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+    z-index: 99;
+}
+
+.bagan .dalem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.bagan ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.bagan a{
+    color: black;
+    text-decoration: none;
+    padding: 7px 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+.bagan a:hover{
+    color: black;
+    font-weight: bold;
+}
+.dalem{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.bagan .dalem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.isi-menu{
+    display: none;
+    position: absolute;
+    background-color: burlywood;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.isi-menu a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.isi-menu a:hover{
+    background-color: #f1f1f1
+}
+
+.menu:hover .isi-menu {
+    display: block;
+}
+.ass{
+    transition: 0.3s;
+    margin: auto;
+    border-radius: 4px;
+}
+
+.ass:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.wadah-ass{
+    margin-top: 0px;
+}
+.hahi{
+    margin-top: 170px;
+}
+.tengah{
+    text-align: center;
+}
+.fotobagus{
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 5px;
+    background: white;
+    margin: 80px;
+    transition: 0.2s;
+    opacity: 90%;
+    width: 4cm;
+    height: 4cm;
+    object-fit: cover;
+    margin-top: 50px;
+
+}.selalu-aku, .wadah-kontak{
+    margin-top: 100px;
+    margin-left: 60px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+}
+.selalu-aku p{
+    text-align: justify;
+}
+
+.selalu-aku, .wadah-kontak{
+    margin-top: 100px;
+    margin-left: 60px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+}
+.selalu-aku p{
+    text-align: justify;
+}
+
+
+.fotobagus:hover{
+    transform: scale(1.2);
+    opacity: 100%;
+    box-shadow: 1px 1px 6px orange;
+}
+
+@media only screen and (max-width: 600px){
+    .bagan a{
+        font-size: 13px;
+        width: 100%;
+    }
+
+    .ass{
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    .selalu-aku, .wadah-kontak{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+}
